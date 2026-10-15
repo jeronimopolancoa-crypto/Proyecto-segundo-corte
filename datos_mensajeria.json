@@ -27,6 +27,13 @@
             "nombre": "Jorge Eliecer Gaitán",
             "telefono": "3184445566",
             "direccion": "Carrera 66 # 9-15"
+        },
+        {
+            "id_cliente": "C005",
+            "documento": "1117899785",
+            "nombre": "Juan Fernando Arango",
+            "telefono": "3167896455",
+            "direccion": "Carrera 22 # 10-14"
         }
     ],
     "repartidores": [
@@ -54,7 +61,7 @@
         {
             "id_repartidor": "R004",
             "documento": "1109223344",
-            "nombre": "EstebanCastro",
+            "nombre": "Esteban Castro",
             "telefono": "3205556677",
             "vehiculo": "Moto"
         },
