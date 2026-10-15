@@ -1,0 +1,126 @@
+{
+    "clientes": [
+        {
+            "id_cliente": "C001",
+            "documento": "1114889201",
+            "nombre": "Laura Martinez",
+            "telefono": "3105551234",
+            "direccion": "Carrera 10 # 5-20"
+        },
+        {
+            "id_cliente": "C002",
+            "documento": "1144098765",
+            "nombre": "Andres Escobar",
+            "telefono": "3127654321",
+            "direccion": "Calle 5 # 38-10"
+        },
+        {
+            "id_cliente": "C003",
+            "documento": "1107554321",
+            "nombre": "Camila Palacios",
+            "telefono": "3158889900",
+            "direccion": "Avenida 3N # 15-40"
+        },
+        {
+            "id_cliente": "C004",
+            "documento": "94321654",
+            "nombre": "Jorge Eliecer Gaitán",
+            "telefono": "3184445566",
+            "direccion": "Carrera 66 # 9-15"
+        }
+    ],
+    "repartidores": [
+        {
+            "id_repartidor": "R001",
+            "documento": "94532110",
+            "nombre": "Carlos Osorio",
+            "telefono": "3159998877",
+            "vehiculo": "Moto"
+        },
+        {
+            "id_repartidor": "R002",
+            "documento": "1005887412",
+            "nombre": "Diego Armando Maradona",
+            "telefono": "3182223344",
+            "vehiculo": "Bicicleta"
+        },
+        {
+            "id_repartidor": "R003",
+            "documento": "1143998877",
+            "nombre": "Juan Camilo Triana",
+            "telefono": "3113334455",
+            "vehiculo": "Carro"
+        },
+        {
+            "id_repartidor": "R004",
+            "documento": "1109223344",
+            "nombre": "EstebanCastro",
+            "telefono": "3205556677",
+            "vehiculo": "Moto"
+        },
+        {
+            "id_repartidor": "R005",
+            "documento": "94887766",
+            "nombre": "Nicolas Gaviria",
+            "telefono": "3176667788",
+            "vehiculo": "Bicicleta"
+        }
+    ],
+    "domicilios": [
+        {
+            "id_servicio": "S001",
+            "id_cliente": "C001",
+            "id_repartidor": "R001",
+            "descripcion": "Documentos notariales",
+            "dir_recogida": "Calle 15 # 3-12",
+            "dir_entrega": "Avenida 6N # 20-50",
+            "fecha_registro": "2026-10-09 10:30",
+            "fecha_cierre": null,
+            "estado": "ACTIVO"
+        },
+        {
+            "id_servicio": "S002",
+            "id_cliente": "C002",
+            "id_repartidor": "R002",
+            "descripcion": "Repuestos electronicos",
+            "dir_recogida": "Carrera 10 # 5-20",
+            "dir_entrega": "Calle 5 # 38-10",
+            "fecha_registro": "2026-10-10 14:15",
+            "fecha_cierre": null,
+            "estado": "ACTIVO"
+        },
+        {
+            "id_servicio": "S003",
+            "id_cliente": "C003",
+            "id_repartidor": "R003",
+            "descripcion": "Caja de libros",
+            "dir_recogida": "Avenida 3N # 15-40",
+            "dir_entrega": "Carrera 80 # 12-05",
+            "fecha_registro": "2026-10-11 09:00",
+            "fecha_cierre": "2026-10-11 10:15",
+            "estado": "FINALIZADO"
+        },
+        {
+            "id_servicio": "S004",
+            "id_cliente": "C004",
+            "id_repartidor": "R004",
+            "descripcion": "Sobre sellado",
+            "dir_recogida": "Carrera 66 # 9-15",
+            "dir_entrega": "Calle 18 # 100-20",
+            "fecha_registro": "2026-10-12 11:20",
+            "fecha_cierre": "2026-10-12 11:35",
+            "estado": "CANCELADO"
+        },
+        {
+            "id_servicio": "S005",
+            "id_cliente": "C001",
+            "id_repartidor": "R003",
+            "descripcion": "Paquete comercial",
+            "dir_recogida": "Carrera 10 # 5-20",
+            "dir_entrega": "Calle 70 # 4-10",
+            "fecha_registro": "2026-10-13 16:00",
+            "fecha_cierre": "2026-10-13 17:10",
+            "estado": "FINALIZADO"
+        }
+    ]
+}
